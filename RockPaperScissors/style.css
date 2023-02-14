@@ -1,0 +1,118 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    background-color: saddlebrown;
+}
+
+.Titular{
+    border-bottom: 7px solid brown;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+    border-bottom-style: inset;
+    display: flex;
+    flex-direction: row;
+    flex-shrink:0;
+    min-width: 0;
+    justify-content: center;
+    padding-bottom: 3%;
+    margin-bottom: 40px;
+    background-color: brown;
+    width: 100%;
+    height: 100px;
+}
+.titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.imagenes{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+
+
+}
+
+#img1,#img2, #img3{
+    margin: 9px;
+    border: solid 2px black;
+    box-shadow: 4px 4px 8px #888888;
+    border-radius: 20px;
+    transition: transform 1s;
+}
+
+img:active {
+    transform: scale(1.5);
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: space-between;
+}
+
+.submit, .reset{
+    background: brown;
+    border: 2px solid black;
+    color: black;
+    padding: 3px 16px;
+    border-radius: 8px;
+    font-weight: bold;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);
+}
+button:active {
+    transform: scale(1.5);
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer{
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+.counter, #ComputerPick, .scorePlayer, .playerPoints, .PcPoint, .win{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px;
+    border: 2px solid black;
+    color: black;
+    padding: 3px 16px;
+    border-radius: 8px;
+    font-weight: bold;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.scorePlayer, .getComputerChoice\(\){
+    background: brown;
+}
+
+.ganador{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3%;
+}

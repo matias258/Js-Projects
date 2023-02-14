@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Title</title>
+</head>
+<body>
+<div class="Titular">
+    <div class="titulo">Rock Paper Scissors game</div>
+</div>
+
+<div class="container">
+
+<p> Choose between Rock, Paper and Scissors </p>
+
+
+<div class="text">
+    <p> Enter a hand: </p>
+
+    <div class="imagenes">
+    <img src="fotos/rock.png" id="img1" alt="rock" width="100" height="100">
+    <img src="fotos/paper.png" id="img2" alt="paper" width="100" height="100">
+    <img src="fotos/scissors.png" id="img3" alt="scissors" width="100" height="100">
+    </div>
+</div>
+
+    <div class="buttons">
+    <button class="reset">Reset game</button>
+
+    </div>
+</div>
+
+<div class="footer">
+    <span class="counter">Counter:</span>
+
+    <div class="playerPointers">
+    <span class="scorePlayer">Player </span>
+    <span class="playerPoints"> 0 </span>
+    </div>
+
+    <div class="ComputerPoints">
+    <span class="getComputerChoice()" id="ComputerPick">PC</span>
+    <span class="PcPoint"> 0 </span>
+    </div>
+
+</div>
+
+<div class="ganador">
+    <span class="win"> Partida a 5</span>
+</div>
+
+
+
+<script src="script.js">
+    console.log(getComputerChoice())
+</script>
+
+
+
+</body>
+</html>
